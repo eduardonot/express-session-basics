@@ -1,4 +1,4 @@
-## About me
+## About
 
 This JS has the objective to provide a basic understanding of Sessions while using MongoDB.
 

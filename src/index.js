@@ -18,8 +18,7 @@ app.use(session({
 	store: db.store()
 }))
 
-app.get('/', (req, res, next) => {
-	req.session.isAuth = true
+app.get('/', (req, res) => {
 	console.log(req.session)
 	res.send('Olá!')
 })
