@@ -6,7 +6,8 @@ module.exports = router => {
 		res.send('Welcome to login route!')
 	})
 
-	router.get('/teste', auth.getUserAuthentication, (req, res) => {
-		console.log('Olá')
+	router.get('/test', auth.getUserAuthentication, (req, res) => {
+		console.log('Session works!')
+		res.send('It worked!')
 	})
 }
